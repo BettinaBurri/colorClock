@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { Observable } from 'rxjs/RX';
 import { IntervalObservable } from 'rxjs/observable/IntervalObservable';
 
 
@@ -9,13 +8,13 @@ import { IntervalObservable } from 'rxjs/observable/IntervalObservable';
   templateUrl: 'home.html'
 })
 
-
 export class HomePage {
 
   hourColor : string;
   minutesColor : string;
   secondsColor : string;
   clockTime: string;
+
   private timerHours : number;
   private timerHoursVal : string;
   private timerMinutes : number;
