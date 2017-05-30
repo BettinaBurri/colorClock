@@ -1,22 +1,22 @@
-<ion-header>
+<!-- <ion-header>
   <ion-navbar>
     <ion-title>
       Ionic Blank
     </ion-title>
   </ion-navbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content>
   <div class="page-home">
     <div class="hour-color-field" [style.background-color]="changeHourBackground()">
         <div class="minutes-color-field" [style.background-color]="changeMinutesBackground()">
             <div class="seconds-color-field" [style.background-color]="changeSecondsBackground()">
-                <span class="timeValue">s: {{secondsColor}}</span>
+                <span class="timeValue">sec.: {{secondsColor}}</span>
 
             </div>
-            <span class="timeValue">m: {{minutesColor}}</span>
+            <span class="timeValue">min.: {{minutesColor}}</span>
         </div>
-        <span class="timeValue">h: {{hourColor}}</span>
+        <span class="timeValue">hr.: {{hourColor}}</span>
     </div>
       <div class="display-time"><span class="clock">{{clockTime}}</span></div>
   </div>

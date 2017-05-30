@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web');
+
 .page-home {
   height: 100%;
   .hour-color-field {
@@ -22,9 +24,12 @@
     }
   }
   .timeValue{
-    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
     color: white;
-    font-weight: bold;
+    display: inline-block;
+    padding: 7px 9px;
   }
   .display-time{
     position: absolute;
@@ -33,16 +38,16 @@
     top: 5%;
     right: -10%;
     background-color: white;
-    /*
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    */
-    .clock{
+    padding: 16px 0 0 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 
+    .clock{
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 100;
+      font-size: 1.2em;
       color: black;
-      font-size: large;
-      font-weight: bold;
     }
   }
 
