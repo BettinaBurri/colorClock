@@ -11,18 +11,18 @@
     <div class="hour-color-field" [style.background-color]="changeHourBackground()">
         <div class="minutes-color-field" [style.background-color]="changeMinutesBackground()">
             <div class="seconds-color-field" [style.background-color]="changeSecondsBackground()">
-                <span class="timeValue">sec.: {{secondsColor}}</span>
+                <span class="timeColorHex"><b>Sec.: </b><br/>{{secondsColor}}</span>
 
             </div>
-            <span class="timeValue">min.: {{minutesColor}}</span>
+            <span class="timeColorHex"><b>Min.: </b><br/>{{minutesColor}}</span>
         </div>
-        <span class="timeValue">hr.: {{hourColor}}</span>
+        <span class="timeColorHex"><b>Hr.: </b><br/>{{hourColor}}</span>
     </div>
-      <div class="display-time"><span class="clock">{{clockTime}}</span></div>
+      <div class="clock-box ">
+        <span class="clock-display">
+          <span class="clock-label"><ion-icon name="clock"></ion-icon> Uhr</span>
+          <span class="clock">{{clockTime}}</span>
+        </span>
+      </div>
   </div>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
-
 </ion-content>

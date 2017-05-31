@@ -48,8 +48,8 @@ export class HomePage {
   }
 
   setColor() {
-    this.timerHours = new Date().getUTCHours();
-    this.timerMinutes = new Date().getUTCMinutes();
+    this.timerHours = new Date().getHours();
+    this.timerMinutes = new Date().getMinutes();
     this.timerSeconds = new Date().getSeconds();
 
     if (this.timerSeconds < 10) {
